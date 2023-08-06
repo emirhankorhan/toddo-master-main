@@ -8,30 +8,30 @@ function Contentfour() {
   const [karuselthree, setKaruselthree] = useState(false);
 
   const karuselForward = () => {
-    if (karuselone == true) {
+    if (karuselone === true) {
       setKaruselone(false)
       setKaruseltwo(true)
       
-    }else if (karuseltwo == true) {
+    }else if (karuseltwo === true) {
       setKaruseltwo(false)
       setKaruselthree(true)
     }
-    else if (karuselthree == true) {
+    else if (karuselthree === true) {
       setKaruselthree(false)
       setKaruselone(true)
     }
   };
 
   const karuselBack = () => {
-    if (karuselone == true) {
+    if (karuselone === true) {
       setKaruselone(false)
       setKaruselthree(true)
       
-    }else if (karuseltwo == true) {
+    }else if (karuseltwo === true) {
       setKaruseltwo(false)
       setKaruselone(true)
     }
-    else if (karuselthree == true) {
+    else if (karuselthree === true) {
       setKaruselthree(false)
       setKaruseltwo(true)
     }
