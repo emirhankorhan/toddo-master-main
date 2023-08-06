@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./contentfour.css"
+import Zoom from 'react-reveal/Zoom';
 
 function Contentfour() {
 
@@ -44,12 +45,14 @@ function Contentfour() {
     <div className='content4'>
       <div className='card-text'>
         <div className='text-space'></div>
+      
         <div className='text-text'>
           <div className='center-text'>NELER YAPABİLECEĞİNİZİ <br /> GÖRMEYE <span className='big-text-four'>HAZIRLANIN</span>! </div>
         </div>
+      
       </div>
 
-
+    
       <div className='card-content'>
         
         <div className='karusel-div'>
@@ -59,6 +62,8 @@ function Contentfour() {
             </button>
             
           </div>
+
+          <Zoom>
 
           {karuselone ? <div className='genel-div'>
             <div className='karusel-div-img-one'></div>
@@ -97,6 +102,8 @@ function Contentfour() {
             
             </div> : ""}
 
+            </Zoom>
+
           
 
           
@@ -109,6 +116,7 @@ function Contentfour() {
           </div>
 
         </div>
+        
         <div className='karusel-dot'>
           
           {karuselone ? <div className='dot-content'>
