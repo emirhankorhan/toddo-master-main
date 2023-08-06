@@ -23,11 +23,11 @@ function Navbar() {
             </div>
 
             <div className='navbar-two'>
-                <a>Ana Sayfa</a>
-                <a className='ogren'>Hakkında</a>
+                <a href='/home'>Ana Sayfa</a>
+                <a href='/about' className='ogren'>Hakkında</a>
                 <a className='ogren3' href='/about'>Blog</a>
-                <a className='ogren2'>Öğreticiler</a>
-                <a>İletişim</a>
+                <a href='/education' className='ogren2'>Öğreticiler</a>
+                <a href='/contact'>İletişim</a>
             </div>
 
             <div className='navbar-three'>
