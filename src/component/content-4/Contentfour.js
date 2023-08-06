@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./contentfour.css"
-import Zoom from 'react-reveal/Zoom';
+
 
 function Contentfour() {
 
@@ -63,7 +63,7 @@ function Contentfour() {
             
           </div>
 
-          <Zoom>
+          
 
           {karuselone ? <div className='genel-div'>
             <div className='karusel-div-img-one'></div>
@@ -102,7 +102,7 @@ function Contentfour() {
             
             </div> : ""}
 
-            </Zoom>
+            
 
           
 

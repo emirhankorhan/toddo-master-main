@@ -1,6 +1,6 @@
 import React from 'react'
 import "./contenttwo.css"
-import Zoom from 'react-reveal/Zoom';
+
 
 function Contenttwo() {
 
@@ -8,12 +8,12 @@ function Contenttwo() {
     <div className='content2'>
       
       <div className='ton-div'>
-      <Zoom>
+      
         <div className='text-div'><div className='text-size'>
           FİRMANIZ İÇİN KULLANIŞLI <br /> <span>BAĞLAMSAL MENÜYÜ <br /> KULLANIN </span> VE ZAMANDAN <br /> TASARRUF EDİN!
         </div>
         </div>
-        </Zoom>
+        
         <div className='img-div'>
           <div className='img1'></div>
         </div>
@@ -25,7 +25,7 @@ function Contenttwo() {
         <div className='img-div'>
           <div className='img2'></div>
         </div>
-        <Zoom>
+        
         <div className='text-div'>
           <div className='text-size'>
             <span>VERİLERİNİZİ HER ZAMAN <br />
@@ -34,14 +34,14 @@ function Contenttwo() {
             </span> GERİ SAYIMA BAŞLAYIN!
           </div>
         </div>
-        </Zoom>
+        
       </div>
       
 
       
       <div className='ton-div'>
         <div className='text-div'>
-          <Zoom>
+          
           <div className='text-size'>
             HIZLI DAVRANIN VE <br />
             FİRMANIZ İÇİN EN <br />
@@ -49,7 +49,7 @@ function Contenttwo() {
             <span>ŞÜPHEYE DÜŞMEKTEN <br />
               KAÇININ!</span>
           </div>
-          </Zoom>
+          
         </div>
         <div className='img-div'>
           <div className='img3'></div>
