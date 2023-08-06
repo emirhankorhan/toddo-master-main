@@ -140,4 +140,4 @@ function Contentfour() {
 
 export default Contentfour
 
-// className={`todo ${todo.completed ? "completed" : "notcompleted"} `}
+// className={`todo ${todo.completed ? "completed" : "notcompleted"} `
