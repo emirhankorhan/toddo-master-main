@@ -1,0 +1,11 @@
+.app{
+  width: 100%;
+  height: auto;
+}
+
+::selection{
+  color: rgb(19, 19, 19);
+  background-color: white;
+}
+
+
