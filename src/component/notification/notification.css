@@ -1,0 +1,93 @@
+.notification-container{
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    border-bottom: solid;
+    border-color: rgb(226, 226, 226);
+    border-width: 1px;
+    animation-name: animation;
+    animation-duration: 0.1s;
+}
+
+@keyframes animation{
+    from{
+        transform: scale(0.9);
+    }to{
+        transform: scale(1.0);
+    }
+}
+
+.noti-ico-div{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(notification-circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noti-ico-product-add-div{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(add-stock.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noti-ico-stock-add-div{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(add-product.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noti-ico-delete-all-div{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(delete-all.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noti-ico-delete-div{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(delete.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noti-text-div{
+    width: 16rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.noti-btn-div{
+    width: 2rem;
+    height: 4rem;
+}
+
+.noti-btn-div .noti-a-tag .noti-detail-btn{
+    width: 2rem;
+    height: 4rem;
+    background-image: url(arrow-right.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

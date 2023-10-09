@@ -1,0 +1,581 @@
+.dashboard-container{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #f2f4f7;
+    display: flex;
+}
+
+.dash-control-div {
+    width: 17%;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.dash-top{
+    width: 83%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 17%;
+}
+
+.dash-menu-button .dash-active-button {
+    background-color: #12b76a;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.dash-menu-button .dash-active-button:hover {
+    background-color: #12b76a;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.dash-control-panel {
+    width: 11rem;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.dash-functional-menu {
+    width: 11rem;
+    height: 80vh;
+}
+
+.dash-empty-menu-div {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.dash-office-content {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+
+.dash-office-logo {
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(shape.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.dash-office-name {
+    width: 70%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.dash-menu-button a {
+    width: 100%;
+    height: 3rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #292929;
+    display: flex;
+    border-radius: 5px;
+}
+
+.dash-menu-button {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-menu-button a:hover {
+    background-color: #d3d3d3;
+    transition: 0.4s;
+}
+
+.dash-ticket-dashicon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(dash2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-ticket-text {
+    width: 65%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.dash-ticket-stockicon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(stock2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-ticket-tex-first {
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.dash-ticket-number-co {
+    width: 45%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dash-ticket-lenght-circle {
+    width: 25px;
+    height: 25px;
+    background-color: #aaffd7;
+    border-radius: 100px;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+}
+
+
+.dash-ticket-charticon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(graph2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-ticket-customericon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(user2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-ticket-supporticon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(support2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-ticket-settingicon {
+    width: 35%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(setting2.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dash-user-account {
+    width: 11rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-new-sto-add {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dash-new-sto-add button {
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: #e3e4e6;
+    border-radius: 5px;
+    
+    font-size: 17px;
+    cursor: pointer;
+    background-image: url(taskkk.svg);
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+.dash-graphics-container{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+}
+
+.small-dash-cont{
+    width: 95%;
+    height: 50rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.dash-statics{
+    width: 70%;
+    height: 50rem;
+}
+
+.three-static-div{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.static1,
+.static2,
+.static3{
+    width: 14.5rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.static-text{
+    width: 12rem;
+    height: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+.static-text1{
+    width: 8rem;
+    height: 2.5rem;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.color-staticred{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgba(254, 205, 201, 1);
+    border-radius: 200px;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-staticred i{
+    color: red;
+}
+
+.color-static{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #ccf5db;
+    border-radius: 200px;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-static i{
+    color: #00ff5e;
+
+}
+
+.static-text2{
+    width: 4rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.static-number{
+    width: 12rem;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.static-info{
+    width: 12rem;
+    height: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    color: #585858;
+}
+.dash-customer{
+    width: 30%;
+    height: 50rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.dash-graphic-chart{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chart-one,
+.chart-two{
+    width: 22.5rem;
+    height: 17rem;
+    background-color: white;
+    
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+
+.chart-textinfo{
+    width: 22.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2rem;
+}
+
+.chart-mys{
+    width: 22.5rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.custom-cont{
+    width: 93%;
+    height: 48rem;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.end-products-container{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.end-product-text{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.end-proinfo{
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+}
+
+.end-proicon{
+    width: 8%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #464646;
+}
+
+.end-proproduct{
+    width: 32%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #464646;
+}
+
+.end-prodate{
+    width: 17%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #464646;
+}
+
+.end-procode{
+    width: 17%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #464646;
+}
+
+.end-propiece{
+    width: 13%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #464646;
+}
+
+.end-proprice{
+    width: 13%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #464646;
+}
+
+.customer-texting{
+    width: 90%;
+    height: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+}
+
+.customer-mapping{
+    width: 90%;
+    height: 30rem;
+}
+
+.calendar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.calendar-white-div{
+    width: 70%;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: white;
+}

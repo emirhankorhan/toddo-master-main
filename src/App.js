@@ -1,30 +1,44 @@
 
 import './App.css';
-import Navbar from "../src/component/navbar/Navbar"
-import Contentone from './component/content-1/Contentone';
-import Contenttwo from './component/content-2/Contenttwo';
-import Contentthree from './component/content-3/Contentthree';
-import Contentfour from './component/content-4/Contentfour';
-import Footer from "../src/component/footer/Footer"
+import Home from './component/home/Home';
+import { Route, Routes } from 'react-router-dom';
+import Oauth from './component/oauth/Oauth';
+import Todolist from '../src/component/todolist/Todolist'
+import Dashboard from '../src/component/dashboard/Dashboard'
+import Chart from './component/chart/Chart';
+import Setting from './component/Setting/Setting';
+import Editsetting from './component/Setting/Editsetting';
+import AppContext from "./component/context/AppContext";
+import React, { useContext } from "react";
+
+
+
 
 function App() {
 
- 
+  
 
-
-
+  const { updatedTodoId } = useContext(AppContext);
 
   return (
-        <div className='app'>
-          <Navbar/>
-          <Contentone/>
-          <Contenttwo/>
-          <Contentthree/>
-          <Contentfour/>
-          <Footer/>
-        </div>
+    <div className='App'>
+       <div className='message-div'>
+        "Ne yazık ki henüz mobil uyumlu değiliz!"
+      </div>
+      <div className='appp'>
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/oauth' element={<Oauth />} />
+          <Route path='/mypage' element={<Todolist />} />
+          <Route path='/chart' element={<Chart />} />
+          <Route path='/setting' element={<Setting />} />
+          <Route path='/setting/1' element={<Editsetting />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+
+        </Routes>
+      </div>
       
-    
+    </div>
   );
 }
 

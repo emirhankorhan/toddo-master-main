@@ -1,0 +1,83 @@
+.dashoperat-container {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+}
+
+.dashoperat-circle {
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-color-dash {
+    width: 2rem;
+    height: 2rem;
+    background-color: #d7ffeb;
+    color: #00ac59;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dashoperat-customer {
+    width: 50%;
+    height: 3rem;
+}
+
+.dash-custo {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.dash-dateco {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.dashoperat-info {
+    width: 30%;
+    height: 3rem;
+}
+
+.dash-operat-number {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #7e7e7e;
+
+}
+
+.dash-operat-totalfee {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+}

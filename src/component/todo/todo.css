@@ -1,0 +1,521 @@
+.todo{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+}
+
+.category-icon{
+    width: 6%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+.inputtext{
+    width: 35%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input-text{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.input-cate{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+.redDiv{
+    min-width: 5rem;
+    width: auto;
+    height: 1.7rem;
+    background-color: rgba(254, 205, 201, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 200px;
+}
+
+.greenDiv{
+    min-width: 5rem;
+    width: auto;
+    height: 1.7rem;
+    background-color: #ccf5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 200px;
+}
+
+.greenDiv .fa-arrow-trend-up{
+    color: #00ac59;
+}
+
+.redDiv .fa-arrow-trend-down{
+    color: #f03f34;
+}
+
+.greenDiv .fa-arrow-trend-down{
+    display: none;
+}
+
+.redDiv .fa-arrow-trend-up{
+    display: none;
+}
+
+.price-btn{
+    width: 11%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-btn{
+    width: 13%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code-btn{
+    width: 13%;
+    height: 3.5rem;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piece-btn{
+    width: 10%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.positive-div{
+    width: 4%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.positive-button{
+    width: 90%;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(buying-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.positive-button:hover{
+    width: 90%;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(buying-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    transition: 0.2s;
+}
+
+.negative-button{
+    width: 90%;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(sales-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.negative-button:hover{
+    width: 90%;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(sales-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    transition: 0.2s;
+}
+
+.negative-div{
+    width: 4%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-menu-div{
+    width: 4%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.morebutton{
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(more-menu2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.morebutton:hover > i{
+    transform: rotate(180deg);
+}
+/* .morebutton{
+    width: 4%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(moremenu.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.black-edit-view{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.open-view {
+    width: 40rem;
+    height: 22rem;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.delete-div{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.delete-view{
+    width: 25rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.delete-text{
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.delete-buttonxc{
+    width: 25rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.delete-buttonxc button{
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.delete-click-button{
+    background-color: #00ac59;
+    color: white;
+}
+
+.delete-close-button{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+
+
+.more-div button{
+    width: 10rem;
+    height: 2.3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.button-more-icon{
+    width: 3rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.button-more-text{
+    width: 7rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.more-div button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.fa-trash{
+    color: red;
+}
+
+.morebutton:hover > .more-div{
+    width: 10rem;
+    height: 11.5rem;
+    position: absolute;
+    right: -3rem;
+    top: 3rem;
+    background-color: #ffffff;
+    z-index: 98;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 70;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.more-div{
+    width: 10rem;
+    height: 11.5rem;
+    position: absolute;
+    right: -3rem;
+    top: 3rem;
+    background-color: #f2f4f7;
+    z-index: 98;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.detail-div{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.detail-view{
+    width: 45rem;
+    height: 30rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.detail-view-two button{
+    width: 30%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detail-close-button{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+.detail-view-one{
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.detail-view-two{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.detail-qr-button,
+.detail-bar-button{
+    background-color: #00ac59;
+    color: white;
+    font-weight: 700;
+}
+
+.detail-div-state{
+    width: 35%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail-div-value{
+    width: 60%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail-text-div,
+.detail-date-div,
+.detail-code-div,
+.detail-piece-div{
+    width: 100%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.detail-comment-div{
+    width: 100%;
+    height: 8.5rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.detail-text-value,
+.detail-date-value,
+.detail-code-value,
+.detail-piece-value{
+    width: 100%;
+    height: 3.5rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.detail-comment-value{
+    width: 100%;
+    height: 8.5rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.fa-circle-exclamation{
+    color: red;
+}

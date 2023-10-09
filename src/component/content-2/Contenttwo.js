@@ -1,5 +1,7 @@
 import React from 'react'
 import "./contenttwo.css"
+import { Zoom } from "react-awesome-reveal";
+
 
 
 function Contenttwo() {
@@ -7,20 +9,23 @@ function Contenttwo() {
   return (
     <div className='content2'>
       
-      <div className='ton-div'>
+     
       
+        <div className='ton-div'>
         <div className='text-div'><div className='text-size'>
           FİRMANIZ İÇİN KULLANIŞLI <br /> <span>BAĞLAMSAL MENÜYÜ <br /> KULLANIN </span> VE ZAMANDAN <br /> TASARRUF EDİN!
         </div>
         </div>
-        
+        <Zoom>
         <div className='img-div'>
           <div className='img1'></div>
         </div>
-      </div>
+        </Zoom>
+        </div>
+        
      
 
-      
+      <Zoom>
       <div className='ton-div'>
         <div className='img-div'>
           <div className='img2'></div>
@@ -36,9 +41,10 @@ function Contenttwo() {
         </div>
         
       </div>
+      </Zoom>
       
 
-      
+      <Zoom>
       <div className='ton-div'>
         <div className='text-div'>
           
@@ -55,6 +61,7 @@ function Contenttwo() {
           <div className='img3'></div>
         </div>
       </div>
+      </Zoom>
       
     </div>
   )

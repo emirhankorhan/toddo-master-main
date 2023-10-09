@@ -71,6 +71,10 @@
     font-size: 15px;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   .green-button .button-text-green{
     color: black;
   }

@@ -1,0 +1,83 @@
+.dashtodo-container{
+    width: 95%;
+    height: 4rem;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+}
+
+.dashtodo-icon{
+    width: 8%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashtodo-product{
+    width: 32%;
+    height: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashtodo-prottext{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dashtodo-cate{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+.dashtodo-date{
+    width: 17%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashtodo-id{
+    width: 17%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashtodo-piece{
+    width: 13%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashtodo-price{
+    width: 13%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}

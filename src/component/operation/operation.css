@@ -1,0 +1,51 @@
+.operation-div{
+    width: 58rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.oper-date{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.oper-company{
+    width: 17rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.oper-product{
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.oper-piece{
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oper-total{
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

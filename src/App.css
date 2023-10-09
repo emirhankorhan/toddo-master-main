@@ -1,11 +1,31 @@
-.app{
-  width: 100%;
-  height: auto;
-}
+
 
 ::selection{
   color: rgb(19, 19, 19);
   background-color: white;
 }
+
+.message-div{
+  display: none;
+}
+
+@media only screen and (max-width: 992px){
+  
+  .appp{
+    display: none;
+  }
+  
+  .message-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+::-webkit-scrollbar {width: 4px;}
+::-webkit-scrollbar-thumb {background-color: #12b76a;}
 
 

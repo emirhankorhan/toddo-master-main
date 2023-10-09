@@ -12,8 +12,8 @@ function Contentfour() {
     if (karuselone === true) {
       setKaruselone(false)
       setKaruseltwo(true)
-      
-    }else if (karuseltwo === true) {
+
+    } else if (karuseltwo === true) {
       setKaruseltwo(false)
       setKaruselthree(true)
     }
@@ -27,8 +27,8 @@ function Contentfour() {
     if (karuselone === true) {
       setKaruselone(false)
       setKaruselthree(true)
-      
-    }else if (karuseltwo === true) {
+
+    } else if (karuseltwo === true) {
       setKaruseltwo(false)
       setKaruselone(true)
     }
@@ -45,25 +45,25 @@ function Contentfour() {
     <div className='content4'>
       <div className='card-text'>
         <div className='text-space'></div>
-      
+
         <div className='text-text'>
           <div className='center-text'>NELER YAPABİLECEĞİNİZİ <br /> GÖRMEYE <span className='big-text-four'>HAZIRLANIN</span>! </div>
         </div>
-      
+
       </div>
 
-    
+
       <div className='card-content'>
-        
+
         <div className='karusel-div'>
           <div className='karusel-icon'>
             <button onClick={karuselBack}>
-            <i class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-left"></i>
             </button>
-            
+
           </div>
 
-          
+
 
           {karuselone ? <div className='genel-div'>
             <div className='karusel-div-img-one'></div>
@@ -76,37 +76,37 @@ function Contentfour() {
                 güvenlik sistemleri yazılımcımız size birkaç blog yazacak.
                 Umarım bunun için de ücret istemez!</div>
             </div>
-            </div> : ""}
+          </div> : ""}
 
-            {karuseltwo ? <div className='genel-div'>
-            
+          {karuseltwo ? <div className='genel-div'>
+
             <div className='karusel-div-two-two'>
-              <div className='karusel-div-text'>Kullanım kolaylığı konusunda da iddialıyız. 
-              Ne söylerseniz söyleyin, hiç telefon kullanmayan birinin bile <span className='karusel-span'>Toddo.co</span> ile kullanım zorluğu 
-              yaşayacağını düşünmüyoruz. Eğer sen başka bir düşünceye sahipsen bunu kanıtlamak için önce denemelisin,
-               üye ol ve tüm işlevleri test et! Eksiklerimiz varsa iletişim kısmından bizimle iletişim kurmayı unutma. 
-               Ne de olsa siz olmadan biz bir hiçiz!</div>
+              <div className='karusel-div-text'>Kullanım kolaylığı konusunda da iddialıyız.
+                Ne söylerseniz söyleyin, hiç telefon kullanmayan birinin bile <span className='karusel-span'>Toddo.co</span> ile kullanım zorluğu
+                yaşayacağını düşünmüyoruz. Eğer sen başka bir düşünceye sahipsen bunu kanıtlamak için önce denemelisin,
+                üye ol ve tüm işlevleri test et! Eksiklerimiz varsa iletişim kısmından bizimle iletişim kurmayı unutma.
+                Ne de olsa siz olmadan biz bir hiçiz!</div>
             </div>
             <div className='karusel-div-img-two'></div>
-            </div> : ""}
+          </div> : ""}
 
-            {karuselthree ? <div className='genel-div'>
+          {karuselthree ? <div className='genel-div'>
             <div className='karusel-div-img-three'></div>
             <div className='karusel-div-two'>
-              <div className='karusel-div-text'>Kendine özel tanımladığın güvenlik önlemleriyle hesabına 
-              başkalarının erişmesine olanak tanıma! Ekstra güvenlik için e-posta ve telefon numaranı 
-              doğrula ve senin iznin olmadan hesabına başkalarının giriş yapmasını önle. Çok yakında 
-              Google Authenticator kullanmaya da başlayacağız ama önce bunun maliyetini araştırmamız 
-              gerek. Malum <span className='karusel-span'>Toddo.co</span> olarak henüz çok küçük bir şirketiz!</div>
+              <div className='karusel-div-text'>Kendine özel tanımladığın güvenlik önlemleriyle hesabına
+                başkalarının erişmesine olanak tanıma! Ekstra güvenlik için e-posta ve telefon numaranı
+                doğrula ve senin iznin olmadan hesabına başkalarının giriş yapmasını önle. Çok yakında
+                Google Authenticator kullanmaya da başlayacağız ama önce bunun maliyetini araştırmamız
+                gerek. Malum <span className='karusel-span'>Toddo.co</span> olarak henüz çok küçük bir şirketiz!</div>
             </div>
-            
-            </div> : ""}
 
-            
+          </div> : ""}
 
-          
 
-          
+
+
+
+
 
           <div className='karusel-icon'>
             <button onClick={karuselForward}>
@@ -116,30 +116,30 @@ function Contentfour() {
           </div>
 
         </div>
-        
+
         <div className='karusel-dot'>
-          
+
           {karuselone ? <div className='dot-content'>
             <div className='dot-active'></div>
-          <div className='dot2'></div>
-          <div className='dot3'></div>
+            <div className='dot2'></div>
+            <div className='dot3'></div>
           </div> : ""}
 
-            {karuseltwo ? <div className='dot-content'>
+          {karuseltwo ? <div className='dot-content'>
             <div className='dot1'></div>
-          <div className='dot-active'></div>
-          <div className='dot3'></div>
+            <div className='dot-active'></div>
+            <div className='dot3'></div>
           </div> : ""}
 
-            {karuselthree ? <div className='dot-content'>
+          {karuselthree ? <div className='dot-content'>
             <div className='dot1'></div>
-          <div className='dot2'></div>
-          <div className='dot-active'></div>
+            <div className='dot2'></div>
+            <div className='dot-active'></div>
           </div> : ""}
-          
-          
+
+
         </div>
-  
+
       </div>
 
     </div>

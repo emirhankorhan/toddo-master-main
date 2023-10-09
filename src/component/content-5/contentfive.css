@@ -1,0 +1,45 @@
+.contentfive{
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(19, 19, 19);
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.baslik-five{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.makale-div{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.makale1,
+.makale2{
+    width: 30rem;
+    height: 30rem;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+}
+
+.makale-space{
+    width: 5rem;
+    height: 30rem;
+}
